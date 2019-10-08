@@ -13,5 +13,7 @@ yarn add antd
 yarn add -D webpack webpack-cli
 ```
 
+``` bash
 // 安装js / jsx 处理loader   
 yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react
+```
