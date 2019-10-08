@@ -4,8 +4,9 @@ yarn add react react-dom
 ```
 
 ``` bash
-// 安装reactUI库 -- antd
+// 安装reactUI库 -- antd, babel-plugin-import是配合antd使用, 可以实现按需加载, 防止打包后的文件过大
 yarn add antd
+yarn add -D babel-plugin-import
 ```
 
 ```bash
