@@ -15,6 +15,6 @@ yarn add -D webpack webpack-cli
 ```
 
 ``` bash
-// 安装js / jsx 处理loader   
+// 安装js / jsx 处理loader   babel的配置可以写在.babelrc 或  babel.config.js 或 在package.json中添加 "babel" 字段
 yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react
 ```
