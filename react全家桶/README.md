@@ -22,6 +22,7 @@ yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react
 ``` bash
 // 安装css处理loader 
 yarn add -D css-loader
+
 // 根据处理后的css存放位置不同
 // 把css存放在js中, 当页面加载时, js会把样式写入页面的style标签中
 yarn add -D style-loader
