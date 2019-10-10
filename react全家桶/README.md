@@ -26,13 +26,16 @@ yarn add -D css-loader
 // 根据处理后的css存放位置不同
 // 把css存放在js中, 当页面加载时, js会把样式写入页面的style标签中
 yarn add -D style-loader
+
 // 把css存放在单独的css文件中 
 // mini-css-extract-plugin用于webpack4以上的版本, 
 // extract-text-webpack-plugin用于4以下的版本
 yarn add -D mini-css-extract-plugin
 yarn add -D extract-text-webpack-plugin
+
 // 如果使用sass
 yarn add -D node-sass sass-loader
+
 // 如果使用less
 yarn add -D less less-loader
 ```
